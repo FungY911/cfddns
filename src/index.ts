@@ -50,7 +50,7 @@ export class IPManager {
       return response.data.trim();
     } catch (error: any) {
       console.error("[❌] Failed to fetch IP:", error.message);
-      throw new Error("[❌] Unable to fetch IP from https://ifconfig.me/ip");
+      throw new Error("Unable to fetch IP from https://ifconfig.me/ip");
     }
   }
 
