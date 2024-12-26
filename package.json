@@ -4,7 +4,7 @@
   "description": "DDNS for Cloudflare",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node dist/server.ts"
+    "start": "ts-node ./src/index.ts"
   },
   "keywords": [],
   "author": "FungY911",
@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
-    "nodemon": "^3.1.9",
     "ts-node": "^10.9.2"
   }
 }
