@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-ddns",
+  "version": "1.0.0",
+  "description": "DDNS for Cloudflare",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node dist/server.ts"
+  },
+  "keywords": [],
+  "author": "FungY911",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cloudflare": "^3.5.0",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
