@@ -50,7 +50,6 @@ Where to create [apiToken](https://developers.cloudflare.com/fundamentals/api/ge
 3. Make the setup script executable:
 
    ```bash
-   Kopírovať kód
    chmod +x ./setup.sh
    ```
 
